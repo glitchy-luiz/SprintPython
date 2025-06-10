@@ -1,5 +1,12 @@
 # 🏥 Sistema de Controle de Estoque Hospitalar
 
+Grupo:
+Adolfo Kentaro Hada   RM:556884
+Bruno Otavio SIlva de Oliveira   RM:556196
+Guilherme Flores Pereira de Almeida   RM:554948
+Luiz Fernando de Aragão Souza   RM:555561
+Marcello de Freitas Almeida   RM:557531
+
 ## 📄 Documento de Envoltória
 
 ### Título
