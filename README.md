@@ -41,9 +41,60 @@ Profissionais da saúde e da gestão hospitalar responsáveis pelo almoxarifado,
 
 ---
 
-## 📘 README Técnico
+## 🧪 Estrutura dos Dados
 
-### Como Executar
-Execute o programa em um terminal com Python instalado:
+Os insumos são armazenados na lista `Estoque`, com o seguinte formato:
+
+```python
+{
+    "id": 101,
+    "nome": "Soro Fisiológico 0.9%",
+    "local": "Enfermaria",
+    "quantidade": 12,
+    "ideal": 20
+}
+```
+
+Cada insumo representa uma entrada independente do estoque, associada a uma localidade hospitalar.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **Linguagem**: Python 3.10 ou superior
+- **Interface**: Terminal interativo
+- **Algoritmos utilizados**:
+  - Ordenação por seleção (Selection Sort) — para ordenar insumos com base em um campo específico
+  - Busca binária — para localizar insumos de forma eficiente após ordenação
+
+---
+
+## ✅ Requisitos para Execução
+
+- Python instalado na máquina (versão 3.10 ou superior)
+- Terminal ou IDE capaz de executar scripts `.py`
+
+Para executar o programa:
 ```bash
 python estoque.py
+```
+
+---
+
+## 🧾 Normas, Estilo e Convenções de Código
+
+- **Estilo de código** segue o padrão [PEP 8](https://peps.python.org/pep-0008/):
+  - Funções nomeadas com `snake_case` (`inserir_insumo`, `buscar_insumo`).
+  - Variáveis descritivas e concisas (`quantidade_atual`, `local_estoque`).
+- **Modularização**:
+  - Cada funcionalidade foi separada em funções específicas.
+  - O código é reutilizável e organizado para fácil manutenção.
+- **Comentários**:
+  - Cada função tem comentários explicativos, incluindo complexidade computacional.
+  - Trechos importantes de código estão documentados com explicações de lógica.
+- **Tratamento de erros**:
+  - Entradas numéricas validadas com `try/except`.
+  - Campos opcionais com validação para evitar falhas.
+- **Interface com o usuário**:
+  - Menu claro e direto.
+  - Feedback imediato após cada operação.
