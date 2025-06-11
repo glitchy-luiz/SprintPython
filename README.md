@@ -90,7 +90,7 @@ python estoque.py
 
 ## 🧾 Normas, Estilo e Convenções de Código
 
-- **Estilo de código** segue o padrão [PEP 8](https://peps.python.org/pep-0008/):
+- **Estilo de código**:
   - Funções nomeadas com `snake_case` (`inserir_insumo`, `buscar_insumo`).
   - Variáveis descritivas e concisas (`quantidade_atual`, `local_estoque`).
 - **Modularização**:
