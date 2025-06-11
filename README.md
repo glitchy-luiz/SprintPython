@@ -10,7 +10,7 @@ Grupo:
 ## 📄 Documento de Envoltória
 
 ### Título
-Sistema de Controle de Estoque Hospitalar
+Sistema de Controle de Estoque Hospitalar (SCEH)
 
 ### Objetivo
 Este sistema tem como propósito gerenciar o estoque de insumos hospitalares, monitorando se os níveis estão dentro do ideal, identificando itens em falta ou em excesso, permitindo buscas otimizadas e facilitando a tomada de decisão para reposição.
